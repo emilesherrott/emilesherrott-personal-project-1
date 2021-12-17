@@ -1,0 +1,13 @@
+@use "stylesheets/fonts";
+
+@use "stylesheets/nav";
+@use "stylesheets/footer";
+
+@use "stylesheets/home";
+
+
+
+body {
+    background: #eeeeee;
+    box-sizing: border-box;
+}

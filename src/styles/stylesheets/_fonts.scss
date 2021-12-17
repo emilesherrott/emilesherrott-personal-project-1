@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Patrick+Hand&family=Roboto:wght@100&display=swap');
+
+$main-font: 'Patrick Hand', cursive;
+$default-font: 'Roboto', sans-serif;
+
+.main-font {
+    font-family: $main-font;
+}
+.default-font {
+    font-family: $default-font
+}
