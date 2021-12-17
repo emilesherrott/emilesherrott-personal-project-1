@@ -1,5 +1,7 @@
 import React from "react";
 
+import MailingList from "../components/home/MailingList";
+
 const Home = () => {
 
     return (
@@ -8,7 +10,7 @@ const Home = () => {
         <div className="home-container">
             <section className="image"><h2>Images</h2></section>
             <section className="mailing-list">
-                <h2>Mailing List</h2>
+                <MailingList />
             </section>
         </div>
         </main>

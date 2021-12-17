@@ -1,0 +1,31 @@
+.home-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image, .mailing-list {
+    border: 1px solid black;
+    width: 46vw;
+    height: 36vw;
+    text-align: center;
+}
+
+#contact-us {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-text, .form-textarea {
+    width: 80%;
+    margin: 10px auto;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-text {
+    height: 50px;
+}
+
+.form-textarea {
+    height: 100px;
+}

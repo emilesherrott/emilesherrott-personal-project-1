@@ -28,7 +28,7 @@ const App = () => {
         
         <Route path="/" component={Home} />
       </Switch>
-      <Footer />
+      <Footer /> 
     </Router>
   )
 }
