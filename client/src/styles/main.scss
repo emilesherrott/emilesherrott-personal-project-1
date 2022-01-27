@@ -1,13 +1,22 @@
 @use "stylesheets/fonts";
+@use "stylesheets/colors";
+@use "stylesheets/form";
 
 @use "stylesheets/nav";
 @use "stylesheets/footer";
 
 @use "stylesheets/home";
+@use "stylesheets/about-me";
+@use "stylesheets/contact-us";
 
 
 
 body {
-    background: #e9c46a;
+    background: #fefefe;
     box-sizing: border-box;
+}
+
+.link {
+    color: #444;
+    text-decoration: none;
 }

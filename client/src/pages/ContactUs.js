@@ -1,10 +1,12 @@
 import React from "react";
+import MailingList from "../components/contact-us/MailingList";
 
 const ContactUs = () => {
+  return (
+    <div className="contact-us-container">
+      <MailingList />
+    </div>
+  );
+};
 
-    return (
-        <h1 className="main-font">Contact Us</h1>
-    )
-}
-
-export default ContactUs
+export default ContactUs;

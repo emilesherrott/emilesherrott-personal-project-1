@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="footer">
-      <h2 className="main-font">Website designed by Aaron James</h2>
+      <h2 className="default-font">Website designed by Aaron James</h2>
       <section className="social-media">
         <div id="facebook">
           <a href="https://www.facebook.com/aaronjamesbooks/" target="_blank" rel="noreferrer">
